@@ -1,16 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
   <header>
     <div>
-      <HelloWorld />
+      <Header />
     </div>
   </header>
 
   <main>
-    
   </main>
 </template>
 

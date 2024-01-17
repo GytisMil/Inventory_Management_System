@@ -1,15 +1,9 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
 </script>
 
 <template>
   <div>
-  Hello world
+  Hello World
   </div>
 </template>
 
