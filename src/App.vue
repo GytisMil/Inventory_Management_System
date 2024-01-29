@@ -4,12 +4,11 @@ import Header from './components/Header.vue'
 
 <template>
   <header>
-    <div>
-      <Header />
-    </div>
+      <Header> </Header>
   </header>
 
   <main>
+ Lorem ipsum lorem sit amet
   </main>
 </template>
 

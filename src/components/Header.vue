@@ -3,10 +3,9 @@
 
 <template>
   <div>
-  Hello World
+  Register
   </div>
 </template>
-
 <style scoped>
 
 </style>
