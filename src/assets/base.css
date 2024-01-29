@@ -19,9 +19,9 @@ header {
 header div {
   float: right;
   text-align: center;
-  margin: 5px;
-  padding: 5px;
-  width: 5%;
+  margin: 6px;
+  padding: 4px;
+  width: 60px;
   background-color: rgb(255,255,255);
 }
 header div:hover{

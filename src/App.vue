@@ -1,14 +1,15 @@
 <script setup>
 import Header from './components/Header.vue'
+import Inventory from './components/Inventory.vue'
 </script>
 
 <template>
   <header>
-      <Header> </Header>
+      <Header/>
   </header>
 
   <main>
- Lorem ipsum lorem sit amet
+ <Inventory/>
   </main>
 </template>
 
