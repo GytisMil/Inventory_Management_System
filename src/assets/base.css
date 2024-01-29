@@ -2,6 +2,12 @@
   font-family: 'Times New Roman', Times, serif;
 }
 header {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,12 +17,16 @@ header {
   padding: 0;
 }
 header div {
+  float: right;
   text-align: center;
   margin: 5px;
   padding: 5px;
   width: 5%;
   background-color: rgb(255,255,255);
 }
+header div:hover{
+  background-color: rgb(200, 200, 200);
+}
 main {
-  margin-top: 60px;
+  margin-top: 50px;
 }
