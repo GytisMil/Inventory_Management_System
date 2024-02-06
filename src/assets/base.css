@@ -16,15 +16,20 @@ header {
   background-color: rgb(20, 20, 20);
   padding: 0;
 }
-header div {
+header div.Navigation div {
+  float: left;
+}
+header div.Login div {
   float: right;
+}
+header div div {
   text-align: center;
   margin: 6px;
   padding: 4px;
   width: 60px;
   background-color: rgb(255,255,255);
 }
-header div:hover{
+header div div:hover{
   background-color: rgb(200, 200, 200);
 }
 main {

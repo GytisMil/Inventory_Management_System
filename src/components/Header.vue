@@ -7,11 +7,21 @@ function name(event) {
 </script>
 
 <template>
-  <div @click="name">
-  Register
+  <div class="Navigation">
+    <div @click="name">
+      Home
+    </div>
+    <div @click="name">
+      About
+    </div>
   </div>
-  <div @click="name">
-  Log In
+  <div class="Login">
+    <div @click="name">
+    Register
+    </div>
+    <div @click="name">
+    Log In
+    </div>
   </div>
 </template>
 <style scoped>
