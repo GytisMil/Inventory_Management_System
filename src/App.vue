@@ -8,9 +8,9 @@ import About from './components/About.vue'
   <header>
       <Header/>
   </header>
-
+  
   <main>
- <Inventory/>
+ <router-view/>
   </main>
 </template>
 
